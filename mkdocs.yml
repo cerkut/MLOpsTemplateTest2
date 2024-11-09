@@ -1,0 +1,20 @@
+
+# mkdocs.yml
+site_name: mlopsTemplateTest2
+site_url: FILL OUT
+repo_url: https://github.com/cerkut/MLOpsTemplateTest2
+nav:
+  - Home: index.md
+  - workflows:
+    - main: mlopsTemplateTest2/main.md
+  - mlopsTemplateTest2:
+    - plotter: mlopsTemplateTest2/plotter.md
+    - data: mlopsTemplateTest2/data.md
+    - evaluate: mlopsTemplateTest2/evaluate.md
+    - predict: mlopsTemplateTest2/predict.md
+    - train: mlopsTemplateTest2/utils.md
+theme: readthedocs
+plugins:
+  - mkdocstrings
+watch:
+  - .  # reload docs for any file changes
